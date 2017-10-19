@@ -1,3 +1,5 @@
+//JavaScript method .toUpperCase and .toLowerCase is used to change the string to be all caps or all lowercase
+
 function shout(string) {
   return string.toUpperCase()
 }
@@ -12,6 +14,7 @@ function logShout(string) {
   console.log(string.toUpperCase())
 }
 
+
 function logWhisper(string) {
   console.log(string.toLowerCase())
 }
@@ -25,3 +28,8 @@ function sayHiToGrandma(string) {
     return "I love you, too."
   }
 }
+
+// we are returning the true condition
+// if the first if statement is true, then it will return "I can't hear you!"
+// if the first if statement is false and the second statement is true, it will return "YES INDEED"
+// if else statement will return the string which is true
